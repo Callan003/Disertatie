@@ -254,3 +254,10 @@
 {"text": "asdsafasf", "probability": 0.5061739393562165}
 {"text": "The best movie ever!", "probability": 0.3029676626454043}
 {"text": "The best movie ever!", "predicted_sentiment": "positive", "is_correct": true}
+{"text": "Everything in this movie is well done. The scenes, the music, the acting, the special effects, every single aspect is perfect. I love this movie!", "probability": 0.18450317883200829}
+{"text": "Everything in this movie is well done. The scenes, the music, the acting, the special effects, every single aspect is perfect. I love this movie!", "predicted_sentiment": "positive", "is_correct": true}
+{"text": "Quite simply, the greatest film ever made.\nHumour, sadness, action and drama all rolled into one.", "probability": 0.21414096194863208}
+{"text": "Quite simply, the greatest film ever made.\nHumour, sadness, action and drama all rolled into one. I love it!", "probability": 0.13312856559928798}
+{"text": "love love love", "probability": 0.3097127390455998}
+{"text": "hate hate sucks", "probability": 0.6651377753700518}
+{"text": "The movie is very close to the real tragedy. It shows a beautiful love story with an extremely sad ending. The acting is first-rate. Leonardo Di Caprio`s and Kate Winslet`s performance is so brilliant that I cried during the whole movie.", "probability": 0.20777481727499203}

@@ -23,7 +23,7 @@
           <div *ngIf="this.reviewSubmitted[i]">
             <h4>Sentiment: <strong [ngClass]="predictedSentiments[i].sentiment === 'positive' ? 'green-color' : 'red-color'">
               {{predictedSentiments[i].sentiment}}</strong></h4>
-            <h4 class="margin-bottom-3">Probability: <strong>{{(predictedSentiments[i].probability).toFixed(2)}}%</strong></h4>
+            <h4 class="margin-bottom-3">Probability: <strong>{{(predictedSentiments[i].probability * 100).toFixed(2)}}%</strong></h4>
             <div *ngIf="!this.feedbackLogged[i]">
               <h4>Was I correct?</h4>
               <ion-button (click)="submitFeedback(true, i)" fill="clear" shape="round" color="primary">
